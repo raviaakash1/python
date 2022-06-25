@@ -1,1 +1,3 @@
-new file created sample.txt
+data added to the file sample.txt
+duplicate data
+duplicate data 2
