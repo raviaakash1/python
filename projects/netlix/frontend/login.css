@@ -1,0 +1,54 @@
+body{
+
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('images/netflix.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+}
+/* header section */
+.header{
+    
+    /* width:100%; */
+    justify-content: center;
+    display: flex;
+    height:10%;
+    padding-top: 10px;
+    
+}
+.row_button{
+    width: 100%;
+    justify-content: center;
+    display: block;
+    
+}
+.NetflixHome{
+    width:30rem;
+    font-size:55px;
+    border-radius: 0px;
+    color: red;
+    font-weight: bold;
+    text-decoration: solid;
+    margin-top: 30px;
+    margin-left: 20vh;
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.signin{
+    width: 100%;
+    height:100%;
+    background-color : transparent;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}

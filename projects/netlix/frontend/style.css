@@ -1,0 +1,140 @@
+body{
+
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('images/netflix.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+}
+/* header section */
+.header{
+    
+    /* width:100%; */
+    justify-content: center;
+    display: flex;
+    height:10%;
+    padding-top: 10px;
+    
+}
+.row_button{
+    width: 60%;
+    justify-content: center;
+    display: block;
+    
+}
+.NetflixHome{
+    width:30rem;
+    font-size: 50px;
+    border-radius: 0px;
+    color: red;
+    font-weight: bold;
+    text-decoration: solid;
+    margin-top: 30px;
+    margin-left: 2vh;
+
+}
+.button_common{
+    width: 5rem;
+    font-size: 18px;
+    height: 40px;
+    background-color: transparent;
+    color : white;
+    border-radius: 7px 7px 7px 7px;
+    margin-top: 20px;
+    
+}
+.button_common.signin{
+    
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 30vh;
+    border: none;
+}
+.button_common.signin:hover{
+    cursor: pointer;
+}
+
+
+/* main body section */
+.main{
+    width: 100%;
+    display: block;
+    /* height:50%; */
+}
+.row_main{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+
+.context{
+    width: 800px;
+    justify-content: center;
+    word-wrap: break-word;
+    text-align: center;
+    color: white;
+    
+}
+
+
+.ShortDesc{
+    font-size: 50px;
+    justify-content: center;
+    text-shadow: 4px 7px 20px rgba(0,0,0,1); 
+}
+.price{
+    font-size: 20px;
+    justify-content: center;
+    text-shadow: 4px 7px 20px rgba(0,0,0,1);
+}
+
+.logininfo{
+    font-size: 25px;
+}
+
+/* footer section */
+
+.footer{
+    width: 100%;
+}
+
+
+.footer_content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+#email_address{
+    width: 700px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0.7;
+    height: 3rem;
+    color: rgb(95, 94, 94);
+    font-size: 20px;
+    
+}
+
+.getStarted{
+    margin-left: 2rem;
+    background-color: red;
+    width: 300px;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.getStarted:hover{
+    cursor: pointer;
+}
