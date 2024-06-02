@@ -44,6 +44,8 @@ Searching Algorithms:
     * Exponential Search
     * Fibonacci Search
     * The Ubiquitous Binary Search
+    * DFS and BFS
+    * Hash-Based Search
 
 
 Short into to all these Searching Algo's:
@@ -196,3 +198,5 @@ Specific Examples:
 
 
 What is the purpose of the search algorithm?
+The purpose of a Search Algorithm in the context of Data Structures and Algorithms (DSA) is to locate a specific item or element within a collection of data. These algorithms are designed to efficiently find the desired item, given its key or some other identifying characteristic, in various data structures such as arrays, linked lists, trees, graphs, and hash tables.
+
