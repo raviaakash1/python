@@ -9,9 +9,3 @@ if __name__ == "__main__":
     result = Counter(list_words)
     print(len(result.keys()))
     [print(result[data], end=" ") for data in result] 
-
-    # expected output
-        # distict words
-        # number of exact occurence of words
-    
-    
