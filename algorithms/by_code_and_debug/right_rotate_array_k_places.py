@@ -52,7 +52,7 @@ def reverse_num(list_nums, left, right):
 
 def rotate_array_by_k_places(list_nums, kth_place):
     list_len = len(list_nums)
-    kth_place = list_len % kth_place
+    kth_place = kth_place % list_len 
     reverse_num(list_nums, list_len-kth_place, list_len-1)
     reverse_num(list_nums, 0, list_len-kth_place-1)
     reverse_num(list_nums, 0,list_len-1)
