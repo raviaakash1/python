@@ -1,0 +1,12 @@
+teams:
+  - name: Alpha
+    members:
+      - name: Aakash
+        email: aakash@bmw.de
+      - name: Ravi
+        email: ravi@bmw.de
+
+  - name: Beta
+    members:
+      - name: John
+        email: john@example.com  # ❌ Invalid domain

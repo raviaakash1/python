@@ -1,0 +1,5 @@
+[2025-09-18 01:20:45] INFO: System initialized
+[2025-09-18 01:21:10] ERROR: CODE_101 - Camera feed lost
+[2025-09-18 01:22:05] WARNING: Low voltage detected
+[2025-09-18 01:23:15] ERROR: CODE_202 - CAN signal timeout
+[2025-09-18 01:24:00] INFO: Recovery sequence triggered
