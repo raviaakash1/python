@@ -56,6 +56,7 @@ def rotate_array_by_k_places(list_nums, kth_place):
     reverse_num(list_nums, list_len-kth_place, list_len-1)
     reverse_num(list_nums, 0, list_len-kth_place-1)
     reverse_num(list_nums, 0,list_len-1)
+    print(list_nums)
 
 if __name__ == "__main__":
     list_nums: List[int] = [int(i) for i in input("Enter an array >> ").split(" ")]
