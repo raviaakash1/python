@@ -6,22 +6,29 @@ Output: {'a.b.c': 1, 'd': 2}
 
 '''
 
-def check_nested(test, output_dict = "", result = {}):
-    if test:
-        for key in test:
-            if isinstance(test[key], dict):
-                check_nested(test[key], output_dict+f"{key}.", result)
-            else:
-                output_dict += key
-                result[output_dict] = test[key]
-        return result
+def flatten_dict(d, parent_key='', result=None):
+    if result is None:
+        result = {}
+    for k, v in d.items():
+        full_key = f"{parent_key}.{k}" if parent_key else k
+        if isinstance(v, dict):
+            flatten_dict(v, full_key, result)
+        else:
+            result[full_key] = v
+    return result
 
-
-
-def solution(test):
-    print(check_nested(test))
-
+def solution(test_case):
+    flattened = flatten_dict(test_case)
+    print(flattened)
 
 if __name__ == "__main__":
-    test_case = {'a': {'b': {'c': 1}}, 'd': 2}
+    test_case = {
+        "a": 1,
+        "b": {
+            "c": 2,
+            "d": {
+                "e": 3
+            }
+        }
+    }
     solution(test_case)
