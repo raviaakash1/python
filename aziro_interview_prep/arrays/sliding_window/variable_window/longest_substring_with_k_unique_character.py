@@ -24,5 +24,4 @@ def longest_substring_k_unique(s, k):
 if __name__ == "__main__":
     string = input()
     unique_characters = int(input())
-
-    print(find_longest_substring_with_k_unique_characters(string, unique_characters))
+    print(longest_substring_k_unique(string, unique_characters))
