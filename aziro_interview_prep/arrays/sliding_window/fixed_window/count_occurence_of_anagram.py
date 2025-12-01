@@ -46,10 +46,6 @@ def count_anagrams(string, sub_string):
             end += 1
     return result
             
-
-
-
-
 if __name__ == "__main__":
     main_string = input("Enter a string : ")
     sub_string = input("Enter a substring : ")
